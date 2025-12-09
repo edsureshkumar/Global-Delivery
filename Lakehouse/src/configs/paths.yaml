@@ -1,0 +1,5 @@
+lakehouse_root: ./lakehouse
+bronze_path: ${lakehouse_root}/bronze
+silver_path: ${lakehouse_root}/silver
+gold_path: ${lakehouse_root}/gold
+checkpoints: ${lakehouse_root}/_checkpoints
