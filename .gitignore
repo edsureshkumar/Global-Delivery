@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+spark-warehouse/
+derby.log
+data/*
+!data/Covid19_Project.csv
+lakehouse/_checkpoints/
