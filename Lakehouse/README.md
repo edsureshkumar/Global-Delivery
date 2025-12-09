@@ -28,7 +28,7 @@ src/
   transformation/{silver_transform_covid.py}
   business_logic/{gold_aggregations_covid.py}
 scripts/run_local_covid.sh
-docs/{architecture-diagram.png, medallion.md}
+docs/{medallion.md}
 notebooks/01_medallion_demo.py
 data/Covid19_Project.csv
 ```
