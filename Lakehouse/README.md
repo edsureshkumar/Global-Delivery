@@ -19,19 +19,25 @@ python src/transformation/silver_transform_covid.py --bronze ./lakehouse/bronze 
 python src/business_logic/gold_aggregations_covid.py --silver ./lakehouse/silver --gold ./lakehouse/gold
 ```
 
-## Repo structure
+## Repository structure
 ```
-src/
-  configs/paths.yaml
-  utils/{delta_helpers.py}
-  ingestion/{bronze_ingest_batch.py}
-  transformation/{silver_transform_covid.py}
-  business_logic/{gold_aggregations_covid.py}
-scripts/run_local_covid.sh
-docs/{medallion.md}
-notebooks/01_medallion_demo.py
-data/Covid19_Project.csv
-```
+Global-Delivery-Lakehouse/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── scripts/run_local_covid.sh
+├── src/
+│   ├── configs/paths.yaml
+│   ├── utils/delta_helpers.py
+│   ├── ingestion/bronze_ingest_batch.py
+│   ├── transformation/silver_transform_covid.py
+│   └── business_logic/gold_aggregations_covid.py
+├── notebooks/01_medallion_demo.py
+├── docs/
+│   └── medallion.md
+└── data/
+    └── Covid19_Project.csv```
 
 ## Notes
 - No confidential data. COVID CSV included for demo.
